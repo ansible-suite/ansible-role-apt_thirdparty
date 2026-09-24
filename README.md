@@ -1,5 +1,20 @@
 # Role: apt_thirdparty
 
+- [Role: apt\_thirdparty](#role-apt_thirdparty)
+  - [Example `requirements.yml` for Ansible site](#example-requirementsyml-for-ansible-site)
+  - [Example playbook](#example-playbook)
+    - [Multiple packages installation example](#multiple-packages-installation-example)
+  - [Role Variables](#role-variables)
+
+
+## Example `requirements.yml` for Ansible site
+
+```yaml
+roles:
+  - name: ansible-suite.apt_thirdparty
+    src: git+https://github.com/ansible-suite/ansible-role-apt_thirdparty.git
+```
+
 ## Example playbook
 
 ```yaml
